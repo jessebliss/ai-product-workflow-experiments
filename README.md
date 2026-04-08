@@ -121,8 +121,22 @@ ai-product-workflow-experiments/
 │   └── confidence-routing-decision.md
 └── notes/
     ├── product-principles.md
-    └── safeguards-checklist.md
+    ├── safeguards-checklist.md
+    ├── experiment-framework.md
+    └── ab-test-template.md
 ```
+
+---
+
+## Experimentation and Rollout
+
+Ship AI workflow features with a measured experiment loop, not one-time launches.
+
+- Define a hypothesis and one primary success metric.
+- Pair success metrics with guardrails (quality, risk, compliance, cost).
+- Roll out in stages (small cohort to broad rollout) with explicit rollback triggers.
+
+See `notes/experiment-framework.md` and `notes/ab-test-template.md`.
 
 ---
 
