@@ -152,6 +152,6 @@ See `notes/experiment-framework.md` and `notes/ab-test-template.md`.
 Run local markdown-link validation and tests:
 
 ```bash
-python3 tools/validate_markdown_links.py
-python3 -m unittest discover -s tests -p "test_*.py"
+node tools/validate-markdown-links.mjs
+node --test tests/*.test.mjs
 ```
