@@ -144,3 +144,14 @@ See `notes/experiment-framework.md` and `notes/ab-test-template.md`.
 
 - **ai-document-ingestion-workflow**: End-to-end document ingestion pipeline with human-in-the-loop and confidence handling.
 - **saas-integration-patterns**: APIs, webhooks, and reliability patterns used when AI workflows integrate with CRMs, support tools, and other SaaS.
+
+---
+
+## Quality Checks
+
+Run local markdown-link validation and tests:
+
+```bash
+python3 tools/validate_markdown_links.py
+python3 -m unittest discover -s tests -p "test_*.py"
+```
