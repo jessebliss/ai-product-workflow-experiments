@@ -123,7 +123,9 @@ ai-product-workflow-experiments/
     ├── product-principles.md
     ├── safeguards-checklist.md
     ├── experiment-framework.md
-    └── ab-test-template.md
+    ├── ab-test-template.md
+    ├── evaluation-dataset-guide.md
+    └── incident-response-for-ai-features.md
 ```
 
 ---
@@ -137,6 +139,13 @@ Ship AI workflow features with a measured experiment loop, not one-time launches
 - Roll out in stages (small cohort to broad rollout) with explicit rollback triggers.
 
 See `notes/experiment-framework.md` and `notes/ab-test-template.md`.
+
+---
+
+## Quality and incident readiness
+
+- **Evaluation data**: Build stratified, versioned eval sets and release gates. See `notes/evaluation-dataset-guide.md`.
+- **Incidents**: When AI quality or availability degrades, use explicit severity and mitigation levers. See `notes/incident-response-for-ai-features.md`.
 
 ---
 
