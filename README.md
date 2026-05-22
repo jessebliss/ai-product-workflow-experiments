@@ -125,7 +125,8 @@ ai-product-workflow-experiments/
     ├── experiment-framework.md
     ├── ab-test-template.md
     ├── evaluation-dataset-guide.md
-    └── incident-response-for-ai-features.md
+    ├── incident-response-for-ai-features.md
+    └── rollout-guardrails-checklist.md
 ```
 
 ---
@@ -138,7 +139,7 @@ Ship AI workflow features with a measured experiment loop, not one-time launches
 - Pair success metrics with guardrails (quality, risk, compliance, cost).
 - Roll out in stages (small cohort to broad rollout) with explicit rollback triggers.
 
-See `notes/experiment-framework.md` and `notes/ab-test-template.md`.
+See `notes/experiment-framework.md`, `notes/ab-test-template.md`, and `notes/rollout-guardrails-checklist.md`.
 
 ---
 
