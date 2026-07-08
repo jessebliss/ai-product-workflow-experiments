@@ -118,7 +118,8 @@ ai-product-workflow-experiments/
 │   └── knowledge-extraction.md
 ├── workflows/
 │   ├── human-validation-flow.md
-│   └── confidence-routing-decision.md
+│   ├── confidence-routing-decision.md
+│   └── feature-flag-rollout.md
 └── notes/
     ├── product-principles.md
     ├── safeguards-checklist.md
@@ -126,7 +127,8 @@ ai-product-workflow-experiments/
     ├── ab-test-template.md
     ├── evaluation-dataset-guide.md
     ├── incident-response-for-ai-features.md
-    └── rollout-guardrails-checklist.md
+    ├── rollout-guardrails-checklist.md
+    └── prompt-change-review-template.md
 ```
 
 ---
@@ -139,7 +141,7 @@ Ship AI workflow features with a measured experiment loop, not one-time launches
 - Pair success metrics with guardrails (quality, risk, compliance, cost).
 - Roll out in stages (small cohort to broad rollout) with explicit rollback triggers.
 
-See `notes/experiment-framework.md`, `notes/ab-test-template.md`, and `notes/rollout-guardrails-checklist.md`.
+See `notes/experiment-framework.md`, `notes/ab-test-template.md`, `notes/rollout-guardrails-checklist.md`, and `workflows/feature-flag-rollout.md`.
 
 ---
 
@@ -147,6 +149,7 @@ See `notes/experiment-framework.md`, `notes/ab-test-template.md`, and `notes/rol
 
 - **Evaluation data**: Build stratified, versioned eval sets and release gates. See `notes/evaluation-dataset-guide.md`.
 - **Incidents**: When AI quality or availability degrades, use explicit severity and mitigation levers. See `notes/incident-response-for-ai-features.md`.
+- **Prompt changes**: Review model/prompt updates with `notes/prompt-change-review-template.md`.
 
 ---
 
